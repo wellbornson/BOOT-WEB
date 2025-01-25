@@ -4,11 +4,11 @@ import {  allProducts} from "@/sanity/lib/queries";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import { Product } from "../../../../products";
+import { Product } from "../../../products";
 import { urlFor } from "@/sanity/lib/image";
 import { addToCart } from "@/app/actions/actions";
 import Swal from 'sweetalert2';
-
+// component k ander folder ni bante hain  TU MOVE KAR LE NA
 const SHOES = () => {
   const [products, setProducts] = useState<Product[]>([]);
 

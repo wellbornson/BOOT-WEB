@@ -3,7 +3,7 @@ import Nike from "./components/Nike";
 import Hero from "./components/Hero";
 import men from "/public/men.png"
 import Catageries from "./components/Catageries";
-import SHOES from "@/app/components/SHOES/page"
+import SHOES from "@/app/SHOES/page"
 
 
 
