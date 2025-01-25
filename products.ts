@@ -1,6 +1,4 @@
 
-
-
 export interface Product{
     _id : string;
     productName:string;
@@ -12,8 +10,13 @@ export interface Product{
         }
     };
     price : number;
-    description? : string
+    description? : string;
+    slug:{
+    _type:  "slug";
+    current: string;
+        
+    };
 
+inventory : number;
 
-
-}
+};

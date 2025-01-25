@@ -3,7 +3,9 @@ import Nike from "./components/Nike";
 import Hero from "./components/Hero";
 import men from "/public/men.png"
 import Catageries from "./components/Catageries";
-import SHOES from "./components/shoes/page";
+import SHOES from "@/app/components/SHOES/page"
+
+
 
 export default function Home() {
   return (
