@@ -3,7 +3,7 @@ import Image from 'next/image'
 import NIKE from "/public/nike.png"
 import MAN from "/public/men.png"
 import { Heart } from 'lucide-react';
-
+import Link from 'next/link';
 const Navbar = () => {
   return (
    <header>
@@ -26,7 +26,12 @@ const Navbar = () => {
             <li>Sale</li>
             <li>SNKRS</li>
         </ul>
-        <div><Heart/></div>
+
+        <div className='flex gap-2 justify-items-end'>
+        <div  > <Link href="/cart"> Cart </Link> </div>
+          <Heart/>
+      
+        </div>
      </div>
         
        

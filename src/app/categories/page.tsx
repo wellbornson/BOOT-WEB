@@ -2,7 +2,6 @@ import Image from "next/image"
 import image22 from "/public/new pics/image22.png"
 import image33 from "/public/new pics/image33.png"
 import image44 from "/public/new pics/image44.png"
-
 import Rectangle4 from "/public/new pics/Rectangle4.png"
 import Rectangle5 from "/public/new pics/Rectangle5.png"
 import Rectangle6 from "/public/new pics/Rectangle6.png"
@@ -296,14 +295,7 @@ const page = () => {
    
 </div>
 
-
-  
 </div>
-
-
-
-
-
 
   )
 }

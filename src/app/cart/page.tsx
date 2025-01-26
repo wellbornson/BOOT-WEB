@@ -84,7 +84,7 @@ const CartPage = () => {
           "Your order has been successfully processed!",
           "success"
         );
-        // Clear the cart after proceeding (optional)
+       
         setCartItems([]);
       }
     });

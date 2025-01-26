@@ -1,10 +1,5 @@
 
-import { Product } from "../../../products";
-
-
-
-
-
+import { Product } from "../../../products"
 export const addToCart = (product: Product) => {
     const cart: Product[] = JSON.parse(localStorage.getItem('cart') || '[]')
   
